@@ -1,0 +1,134 @@
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #4d0649;
+}
+
+h1, h2, h3 {
+  margin: 0 0 15px;
+}
+
+p {
+  line-height: 3.0;
+}
+
+
+header {
+  background-color: #670d91;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgb(191, 135, 223);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.ativo {
+  text-decoration: underline;
+}
+
+
+.secao {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.btn {
+  background: #570a83;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #ab6ad1;
+}
+
+
+.aulas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.aula {
+  background: rgb(223, 185, 238);
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  width: 280px;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.aula:hover {
+  transform: translateY(-5px);
+}
+
+.aula img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #4e177a;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #b26ee0;
+}
+
+
+footer {
+  background-color: #bb85c09d;
+  color: rgba(255, 255, 255, 0.89);
+  text-align: center;
+  padding: 2px 0;
+  margin-top: 100px;
+}
